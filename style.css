@@ -7,6 +7,10 @@ body {
   font-size: 16px;
   line-height: 1.4;
   background-image: url("images/beach.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -98,6 +102,10 @@ a:hover {
 .img-table {
   width:200px;
   margin: 30px;
+}
+
+.form-inline{
+  margin-top: 40px;
 }
 
 #sidebar {
