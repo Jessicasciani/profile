@@ -25,8 +25,6 @@ h1 {
   font-size: 28px;
 }
 
-
-
 a{
   color: rgb(143, 191, 196);
   text-decoration: none;
@@ -102,6 +100,28 @@ a:hover {
   margin: 30px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 180px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(215, 231, 232);
+  text-align: center;
+}
+#content {
+  margin-left: 300px;
+}
+
+.align-center{
+  padding: 0;
+}
+
+#sidebar li {
+  list-style: none;
+  font-size: 26px;
+  margin: 50px;
+}
 
 
 @media (max-width: 960px) {
