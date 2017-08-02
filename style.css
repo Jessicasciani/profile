@@ -29,6 +29,11 @@ h1 {
   font-size: 28px;
 }
 
+.btn-primary{
+  background-color: rgb(100, 199, 201);
+  border-color: rgb(100, 199, 201);
+}
+
 a{
   color: rgb(143, 191, 196);
   text-decoration: none;
